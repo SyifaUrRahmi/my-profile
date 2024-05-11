@@ -1,0 +1,53 @@
+body {
+  height: 100%;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-weight: 300;
+}
+.jumbotron {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #e2edff;
+}
+.jumbotron img {
+  margin-top: 20px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.about {
+  text-align: center;
+}
+.about h1 {
+  color: #0099ffb1;
+}
+.about p {
+  margin: 0 300px 0 300px;
+}
+
+.project {
+  text-align: center;
+  margin: 100px 0 50px 0;
+}
+.project .row {
+  margin: 0 100px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+  margin-top: 4rem;
+}
+
+.project .card {
+  text-align: center;
+  border: 1px solid #0099ffb1;
+  padding: 2rem;
+  border-radius: 5%;
+}
+
+.project .card img {
+  width: 400px;
+}
